@@ -1,4 +1,4 @@
-Simple-Letter
+INFORMATION LETTER
 =================================================
 
 reserv_person = input("Name of the reservation responsible person: ").title()
@@ -35,3 +35,21 @@ CNT Team
 
 "Education is what remains after one has forgotten what one has learned in school" - Albert Einstein
 =======================================================
+
+ALERGY QUESTIONNAIRE
+=======================================================
+input_test = input('Enter all things eaten in 24 hours: ')
+  # Enter all things eaten in 24 hours: oats, diary, nuts, pyzy, spinach
+  
+print ('It is','diary'.lower() in input_test.lower(), 'that', '"'+input_test+'"', 'contains', '"diary"')
+print ('It is','nuts'.lower() in input_test.lower(), 'that', '"'+input_test+'"', 'contains', '"nuts"')
+print ('It is','seafood'.lower() in input_test.lower(), 'that','"'+input_test+'"', 'contains', '"seafood"')
+print ('It is','chocolate'.lower() in input_test.lower(), 'that','"'+input_test+'"', 'contains', '"chocolate"')
+
+-------------------------------------------------
+enter all things eaten in 24 hours: oats, diary, nuts, pyzy, spinach " contains "diary
+It is True that "oats, diary, nuts, pyzy, spinach " contains "diary" contains "diary"
+It is True that "oats, diary, nuts, pyzy, spinach " contains "diary" contains "nuts"
+It is False that "oats, diary, nuts, pyzy, spinach " contains "diary" contains "seafood"
+It is False that "oats, diary, nuts, pyzy, spinach " contains "diary" contains "chocolate"
+========================================================
