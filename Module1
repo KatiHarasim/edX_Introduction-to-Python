@@ -1,1 +1,37 @@
+Simple-Letter
+=================================================
 
+reserv_person = input("Name of the reservation responsible person: ").title()
+  # Name of the reservation responsible person: john smith
+reserv_numpeople = input("Please enter numbert of participants: ")
+  # Please enter numbert of participants: 20
+reserv_date = input("Reservation date: ")
+  #Reservation date: 20.04.2018
+reserv_addinfo = input("Additional remarks: ")
+  #Additional remarks: None
+
+print("Dear",reserv_person)
+print("")
+print("Thank you for Your reservation at CNT TECH Incubator.")
+print("The requested date is",reserv_date, "for", reserv_numpeople, "participants.")
+print("")
+print("Please arrive 10 minutes earlier for setting up the class.")
+print("")
+print("have a good meeting& keep smiling,")
+print("CNT Team")
+print("")
+print('"Education is what remains after one has forgotten what one has learned in school" - Albert Einstein')
+
+----------------------------------------------------
+Dear John Smith
+
+Thank you for Your reservation at CNT TECH Incubator.
+The requested date is 20.04.2018 for 20 participants.
+
+Please arrive 10 minutes earlier for setting up the class.
+
+have a good meeting& keep smiling,
+CNT Team
+
+"Education is what remains after one has forgotten what one has learned in school" - Albert Einstein
+=======================================================
