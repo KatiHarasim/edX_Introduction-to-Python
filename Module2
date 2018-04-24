@@ -1,0 +1,14 @@
+# Create a Fish Store Questionnaire
+=================================================================
+def fishstore():
+    fish_entry = input("What is the name of the fish? ")
+    price_entry = input("What is the price of the fish? ")
+    return "Fish type: "+ fish_entry+" costs "+price_entry
+    
+fish= fishstore()
+print(fish)
+
+----------------------------------------------------------------
+What is the name of the fish? Tuna
+What is the price of the fish? 12
+Fish type: Tuna costs 12
