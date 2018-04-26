@@ -1,0 +1,27 @@
+Program: str_analysis() Function
+===================================================
+
+def str_analysis():
+    answer = input("Enter word or integer:")
+    while True:
+        if answer != "":
+            if answer.isalpha():
+                print(answer, "is all alphabetic")
+            if answer.isdigit():
+                if int(answer) >= 99:
+                    print(answer, "is a big number")
+                elif int(answer) <99:
+                    print (answer, "is a small number")
+            else:
+                print(answer, "is not recognized") 
+            break
+        else:
+            answer = input("Enter word or integer:")  
+            
+mamba = str_analysis()
+print(mamba)
+=====================================================
+Example output:
+
+Enter word or integer:aa
+aa is all alphabetic
